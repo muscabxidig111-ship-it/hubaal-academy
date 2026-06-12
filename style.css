@@ -1,3 +1,64 @@
+/* ==========================================
+   Responsive Design (Moobilada iyo Screen-ka Yar)
+   ========================================== */
+
+@media screen and (max-width: 768px) {
+    
+    /* 1. Wrapper-ka caadiga ah */
+    .wrapper {
+        width: 92%; /* Meel yara bannaan sii dhinacyada moobilka */
+        margin: 10px auto;
+    }
+
+    /* 2. Header-ka iyo Navigation-ka */
+    header {
+        padding: 15px 10px;
+    }
+    
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    /* 3. Page 1: 2-Column Layout wuxuu noqonayaa 1-Column */
+    .container-2col {
+        flex-direction: column; /* Qaybaha hoos isugu rumbay */
+        width: 92%;
+        gap: 15px;
+    }
+
+    /* 4. Page 2: Saaxiibada (Team Page) */
+    .leader-box {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .leader-box img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-box {
+        float: none;       /* Floats-ka ka baabi'i moobilka */
+        width: 100%;       /* Mid kasta ha qaato ballaaranka screen-ka oo dhan */
+        margin: 15px 0;    /* Meel bannaan oo sare iyo hoos ah */
+        height: auto;      /* Ka dhig auto si uu qoraalka u dego oo uusan ugu dhuuman dherer go'an */
+    }
+
+    /* 5. Page 3 & 4: Foomamka (Registration & Contact) */
+    .reg-form {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .btn-submit {
+        padding: 12px; /* Badhanka ka dhig mid weyn oo moobilka farta ku fudud */
+    }
+}
+
+
 /* Nidaamka Guud */
 * {
     box-sizing: border-box;
