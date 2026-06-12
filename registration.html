@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is-diiwaangelinta - Tech Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hubaal Academy</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="team.html">Team</a>
+            <a href="registration.html">registration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="wrapper">
+        <h2>Foomka Is-diiwaangelinta Ardayda</h2>
+        <form action="#" method="POST" class="reg-form">
+            
+            <div class="form-group">
+                <label for="fullname">Magaca Dhammaystiran:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Geli magacaaga afarta ah">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email-ka:</label>
+                <input type="email" id="email" name="email" required placeholder="tusaale@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefoonka:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Geli lambarkaaga">
+            </div>
+
+            <div class="form-group">
+                <label>Jinsiga:</label>
+                <label class="inline-label"><input type="radio" name="gender" value="lab" checked> Lab</label>
+                <label class="inline-label"><input type="radio" name="gender" value="dhadig"> Dheddig</label>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Dooro Koorsada:</label>
+                <select id="course" name="course">
+                    <option value="frontend">Front-End Web Development</option>
+                    <option value="python">Python Programming</option>
+                    <option value="security">Network Security Academy</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" name="terms" required> Waxaan ogolaaday shuruudaha akadeemiyada</label>
+            </div>
+
+            <button type="submit" class="btn-submit">Diiwaangeli</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tech Academy. Xuquuqda way dhowran tahay.</p>
+    </footer>
+
+</body>
+</html>
